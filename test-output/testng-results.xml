@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8809" started-at="2020-05-17T16:58:42Z" finished-at="2020-05-17T16:58:51Z">
+  <suite name="Default suite" duration-ms="4519" started-at="2020-05-17T17:29:07Z" finished-at="2020-05-17T17:29:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8809" started-at="2020-05-17T16:58:42Z" finished-at="2020-05-17T16:58:51Z">
-      <class name="Selenium4.WebElementScreenshot">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Selenium4.WebElementScreenshot@27c20538]" name="setup" is-config="true" duration-ms="3990" started-at="2020-05-17T16:58:42Z" finished-at="2020-05-17T16:58:46Z">
+    <test name="Default test" duration-ms="4519" started-at="2020-05-17T17:29:07Z" finished-at="2020-05-17T17:29:11Z">
+      <class name="Selenium4.getElementLocation">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Selenium4.getElementLocation@27c20538]" name="setup" is-config="true" duration-ms="2926" started-at="2020-05-17T17:29:07Z" finished-at="2020-05-17T17:29:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="captureScreenshot()[pri:0, instance:Selenium4.WebElementScreenshot@27c20538]" name="captureScreenshot" duration-ms="4573" started-at="2020-05-17T16:58:46Z" finished-at="2020-05-17T16:58:51Z">
+        <test-method status="PASS" signature="getLocation()[pri:0, instance:Selenium4.getElementLocation@27c20538]" name="getLocation" duration-ms="1045" started-at="2020-05-17T17:29:10Z" finished-at="2020-05-17T17:29:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- captureScreenshot -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Selenium4.WebElementScreenshot@27c20538]" name="teardown" is-config="true" duration-ms="206" started-at="2020-05-17T16:58:51Z" finished-at="2020-05-17T16:58:51Z">
+        </test-method> <!-- getLocation -->
+        <test-method status="PASS" signature="getSize()[pri:0, instance:Selenium4.getElementLocation@27c20538]" name="getSize" duration-ms="358" started-at="2020-05-17T17:29:11Z" finished-at="2020-05-17T17:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSize -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Selenium4.getElementLocation@27c20538]" name="teardown" is-config="true" duration-ms="153" started-at="2020-05-17T17:29:11Z" finished-at="2020-05-17T17:29:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- Selenium4.WebElementScreenshot -->
+      </class> <!-- Selenium4.getElementLocation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
