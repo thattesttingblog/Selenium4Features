@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8025" started-at="2020-05-17T13:27:29Z" finished-at="2020-05-17T13:27:37Z">
+  <suite name="Default suite" duration-ms="8809" started-at="2020-05-17T16:58:42Z" finished-at="2020-05-17T16:58:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8025" started-at="2020-05-17T13:27:29Z" finished-at="2020-05-17T13:27:37Z">
+    <test name="Default test" duration-ms="8809" started-at="2020-05-17T16:58:42Z" finished-at="2020-05-17T16:58:51Z">
       <class name="Selenium4.WebElementScreenshot">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Selenium4.WebElementScreenshot@27c20538]" name="setup" is-config="true" duration-ms="3161" started-at="2020-05-17T13:27:29Z" finished-at="2020-05-17T13:27:32Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Selenium4.WebElementScreenshot@27c20538]" name="setup" is-config="true" duration-ms="3990" started-at="2020-05-17T16:58:42Z" finished-at="2020-05-17T16:58:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="captureScreenshot()[pri:0, instance:Selenium4.WebElementScreenshot@27c20538]" name="captureScreenshot" duration-ms="4643" started-at="2020-05-17T13:27:32Z" finished-at="2020-05-17T13:27:36Z">
+        <test-method status="PASS" signature="captureScreenshot()[pri:0, instance:Selenium4.WebElementScreenshot@27c20538]" name="captureScreenshot" duration-ms="4573" started-at="2020-05-17T16:58:46Z" finished-at="2020-05-17T16:58:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureScreenshot -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Selenium4.WebElementScreenshot@27c20538]" name="teardown" is-config="true" duration-ms="196" started-at="2020-05-17T13:27:36Z" finished-at="2020-05-17T13:27:37Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Selenium4.WebElementScreenshot@27c20538]" name="teardown" is-config="true" duration-ms="206" started-at="2020-05-17T16:58:51Z" finished-at="2020-05-17T16:58:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
