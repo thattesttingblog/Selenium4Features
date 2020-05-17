@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Selenium4.WebElementScreenshot">
+      <class name="Selenium4.RelativeLocators">
         <methods>
-          <include name="captureScreenshot"/>
-          <include name="setup"/>
           <include name="teardown"/>
+          <include name="setup"/>
+          <include name="Test1"/>
         </methods>
-      </class> <!-- Selenium4.WebElementScreenshot -->
+      </class> <!-- Selenium4.RelativeLocators -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

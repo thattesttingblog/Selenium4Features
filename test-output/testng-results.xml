@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4519" started-at="2020-05-17T17:29:07Z" finished-at="2020-05-17T17:29:11Z">
+  <suite name="Default suite" duration-ms="5410" started-at="2020-05-17T17:50:42Z" finished-at="2020-05-17T17:50:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4519" started-at="2020-05-17T17:29:07Z" finished-at="2020-05-17T17:29:11Z">
-      <class name="Selenium4.getElementLocation">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Selenium4.getElementLocation@27c20538]" name="setup" is-config="true" duration-ms="2926" started-at="2020-05-17T17:29:07Z" finished-at="2020-05-17T17:29:10Z">
+    <test name="Default test" duration-ms="5410" started-at="2020-05-17T17:50:42Z" finished-at="2020-05-17T17:50:47Z">
+      <class name="Selenium4.RelativeLocators">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Selenium4.RelativeLocators@13805618]" name="setup" is-config="true" duration-ms="5086" started-at="2020-05-17T17:50:42Z" finished-at="2020-05-17T17:50:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="getLocation()[pri:0, instance:Selenium4.getElementLocation@27c20538]" name="getLocation" duration-ms="1045" started-at="2020-05-17T17:29:10Z" finished-at="2020-05-17T17:29:11Z">
+        <test-method status="PASS" signature="Test1()[pri:0, instance:Selenium4.RelativeLocators@13805618]" name="Test1" duration-ms="101" started-at="2020-05-17T17:50:47Z" description="test Book 5 is left of book 6 and below book 1" finished-at="2020-05-17T17:50:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getLocation -->
-        <test-method status="PASS" signature="getSize()[pri:0, instance:Selenium4.getElementLocation@27c20538]" name="getSize" duration-ms="358" started-at="2020-05-17T17:29:11Z" finished-at="2020-05-17T17:29:11Z">
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:Selenium4.RelativeLocators@13805618]" name="Test2" duration-ms="56" started-at="2020-05-17T17:50:47Z" description="test Book 2 is right of book 1 and above book 6" finished-at="2020-05-17T17:50:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getSize -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Selenium4.getElementLocation@27c20538]" name="teardown" is-config="true" duration-ms="153" started-at="2020-05-17T17:29:11Z" finished-at="2020-05-17T17:29:11Z">
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Selenium4.RelativeLocators@13805618]" name="teardown" is-config="true" duration-ms="132" started-at="2020-05-17T17:50:47Z" finished-at="2020-05-17T17:50:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- Selenium4.getElementLocation -->
+      </class> <!-- Selenium4.RelativeLocators -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
