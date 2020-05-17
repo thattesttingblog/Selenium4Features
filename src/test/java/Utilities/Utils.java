@@ -7,6 +7,7 @@ import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -39,5 +40,12 @@ public class Utils extends BaseClass {
 		
 	}
 	
+	
+	public static void highlightElement(WebElement ele, WebDriver driver) {
+		
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].style.border='2px solid red'", ele);
+		
+	}
 	
 }
