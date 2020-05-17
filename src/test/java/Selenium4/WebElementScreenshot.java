@@ -1,5 +1,9 @@
 package Selenium4;
 
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+import org.testng.AssertJUnit;
 import java.io.IOException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -40,7 +44,7 @@ public class WebElementScreenshot {
 		driver.get(Constants.baseURL);
 		String title1 = driver.getTitle();
 		
-		Assert.assertEquals(title1, "Wikipedia");
+		AssertJUnit.assertEquals(title1, "Wikipedia");
 		
 	//TAKE SCREENSHOT OF MAIN IMG	
 		 Utils.takescreenshot(driver,PageObjects.locator);
@@ -52,7 +56,7 @@ public class WebElementScreenshot {
 		 
 	//Assert page Title	 
 		 String title2 = driver.getTitle();
-		 Assert.assertEquals(title2, "Selenium - Wikipedia");
+		 AssertJUnit.assertEquals(title2, "Selenium - Wikipedia");
 		 
 	//TAKE SCREENSHOT OF SEARCH IMG	
 		 Utils.takescreenshot(driver, PageObjects.locator1);

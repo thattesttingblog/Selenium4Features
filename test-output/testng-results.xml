@@ -1,33 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7700" started-at="2020-05-17T18:21:29Z" finished-at="2020-05-17T18:21:36Z">
+  <suite name="Suite" duration-ms="16439" started-at="2020-05-17T19:50:49Z" finished-at="2020-05-17T19:51:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7700" started-at="2020-05-17T18:21:29Z" finished-at="2020-05-17T18:21:36Z">
+    <test name="Test" duration-ms="16439" started-at="2020-05-17T19:50:49Z" finished-at="2020-05-17T19:51:05Z">
       <class name="Selenium4.TakingScreenshots">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Selenium4.TakingScreenshots@6e1567f1]" name="setup" is-config="true" duration-ms="5984" started-at="2020-05-17T18:21:29Z" finished-at="2020-05-17T18:21:35Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Selenium4.TakingScreenshots@60dcc9fe]" name="setup" is-config="true" duration-ms="3785" started-at="2020-05-17T19:50:57Z" finished-at="2020-05-17T19:51:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="screenshotCompletePage()[pri:0, instance:Selenium4.TakingScreenshots@6e1567f1]" name="screenshotCompletePage" duration-ms="496" started-at="2020-05-17T18:21:35Z" description="screenshot of complete webpage" finished-at="2020-05-17T18:21:35Z">
+        <test-method status="PASS" signature="screenshotCompletePage()[pri:0, instance:Selenium4.TakingScreenshots@60dcc9fe]" name="screenshotCompletePage" duration-ms="510" started-at="2020-05-17T19:51:00Z" description="screenshot of complete webpage" finished-at="2020-05-17T19:51:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotCompletePage -->
-        <test-method status="PASS" signature="screenshotOfElement()[pri:0, instance:Selenium4.TakingScreenshots@6e1567f1]" name="screenshotOfElement" duration-ms="330" started-at="2020-05-17T18:21:35Z" description="screenshot of a element" finished-at="2020-05-17T18:21:35Z">
+        <test-method status="PASS" signature="screenshotOfElement()[pri:0, instance:Selenium4.TakingScreenshots@60dcc9fe]" name="screenshotOfElement" duration-ms="314" started-at="2020-05-17T19:51:01Z" description="screenshot of a element" finished-at="2020-05-17T19:51:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOfElement -->
-        <test-method status="PASS" signature="screenshotOfSection()[pri:0, instance:Selenium4.TakingScreenshots@6e1567f1]" name="screenshotOfSection" duration-ms="666" started-at="2020-05-17T18:21:35Z" description="screenshot of a section" finished-at="2020-05-17T18:21:36Z">
+        <test-method status="PASS" signature="screenshotOfSection()[pri:0, instance:Selenium4.TakingScreenshots@60dcc9fe]" name="screenshotOfSection" duration-ms="563" started-at="2020-05-17T19:51:01Z" description="screenshot of a section" finished-at="2020-05-17T19:51:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOfSection -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Selenium4.TakingScreenshots@6e1567f1]" name="teardown" is-config="true" duration-ms="182" started-at="2020-05-17T18:21:36Z" finished-at="2020-05-17T18:21:36Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Selenium4.TakingScreenshots@60dcc9fe]" name="teardown" is-config="true" duration-ms="166" started-at="2020-05-17T19:51:02Z" finished-at="2020-05-17T19:51:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Selenium4.TakingScreenshots -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="Selenium4.WebElementScreenshot">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Selenium4.WebElementScreenshot@3c72f59f]" name="setup" is-config="true" duration-ms="3196" started-at="2020-05-17T19:50:49Z" finished-at="2020-05-17T19:50:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="captureScreenshot()[pri:0, instance:Selenium4.WebElementScreenshot@3c72f59f]" name="captureScreenshot" duration-ms="3943" started-at="2020-05-17T19:50:52Z" finished-at="2020-05-17T19:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Selenium4.WebElementScreenshot@3c72f59f]" name="teardown" is-config="true" duration-ms="177" started-at="2020-05-17T19:50:56Z" finished-at="2020-05-17T19:50:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Selenium4.WebElementScreenshot -->
+      <class name="Selenium4.RelativeLocators">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Selenium4.RelativeLocators@222114ba]" name="setup" is-config="true" duration-ms="3313" started-at="2020-05-17T19:51:02Z" finished-at="2020-05-17T19:51:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:Selenium4.RelativeLocators@222114ba]" name="Test1" duration-ms="112" started-at="2020-05-17T19:51:05Z" description="test Book 5 is left of book 6 and below book 1" finished-at="2020-05-17T19:51:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:Selenium4.RelativeLocators@222114ba]" name="Test2" duration-ms="51" started-at="2020-05-17T19:51:05Z" description="test Book 2 is right of book 1 and above book 6" finished-at="2020-05-17T19:51:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Selenium4.RelativeLocators@222114ba]" name="teardown" is-config="true" duration-ms="110" started-at="2020-05-17T19:51:05Z" finished-at="2020-05-17T19:51:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Selenium4.RelativeLocators -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

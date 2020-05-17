@@ -4,10 +4,8 @@ import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -17,7 +15,6 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import Utilities.Utils;
 
 public class TakingScreenshots {
@@ -46,7 +43,7 @@ private WebDriver driver;
 		
 	}
 	
-	@Test(description = "screenshot of complete webpage")
+	@Test( description = "screenshot of complete webpage")
 	public void screenshotCompletePage() throws IOException {
 		
 		TakesScreenshot ts = (TakesScreenshot)driver;
